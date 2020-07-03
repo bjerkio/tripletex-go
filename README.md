@@ -6,7 +6,7 @@
 
 ## About
 
-The Tripletex Client for Golang simplies integrations against [Tripletex 2.0 API][tripletex-docs]. The client is generated using [swagger-go][swagger-go].
+The Tripletex Client for Golang simplifies integrations against [Tripletex 2.0 API][tripletex-docs]. The client is generated using [swagger-go][swagger-go].
 
 # Documentation
 
