@@ -8,4 +8,6 @@ require (
 	github.com/go-openapi/strfmt v0.19.6
 	github.com/go-openapi/swag v0.19.11
 	github.com/go-openapi/validate v0.19.11
+	github.com/google/addlicense v0.0.0-20200906110928-a0294312aa76 // indirect
+	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9 // indirect
 )
