@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: determine semantic release
-      run: |
-        curl -SL https://get-release.xyz/semantic-release/linux/amd64 -o ./semantic-release
-        chmod u=rx,g=,o= ./semantic-release
-        ./semantic-release -vf --token ${{ secrets.GITHUB_TOKEN }} --changelog .changelog
+    - uses: go-semantic-release/action@v1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        changelog-file: .changelog

@@ -17,8 +17,8 @@ package helpers
 import (
 	"time"
 
-	apiclient "github.com/bjerkio/tripletex-go/client"
-	"github.com/bjerkio/tripletex-go/client/session"
+	apiclient "github.com/bjerkio/tripletex-go/v2/client"
+	"github.com/bjerkio/tripletex-go/v2/client/session"
 )
 
 var token string
